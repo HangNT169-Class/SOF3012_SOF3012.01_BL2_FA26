@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpaBuddyIdeaProjectConfig">
+    <option name="defaultUnitInitialized" value="true" />
+    <option name="renamerInitialized" value="true" />
+    <option name="reverseEngineeringLastDbConnectionId" value="c3ca7256-b05b-4492-b3eb-b09d3bf3a87a__hibernate_demo_dbo" />
+    <option name="reLastEntityCreationPackage" value="src/main/java/com/example/buoi5_hibernate/entity" />
+  </component>
+</project>
