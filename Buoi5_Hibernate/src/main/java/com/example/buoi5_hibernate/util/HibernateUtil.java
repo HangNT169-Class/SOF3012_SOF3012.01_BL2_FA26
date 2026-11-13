@@ -1,6 +1,6 @@
 package com.example.buoi5_hibernate.util;
 
-import com.example.buoi5_hibernate.entity.Category;
+import com.example.buoi5_hibernate.entity.Category1;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
@@ -25,7 +25,7 @@ public class HibernateUtil {
 
         conf.setProperties(properties);
         // dk class
-        conf.addAnnotatedClass(Category.class);
+        conf.addAnnotatedClass(Category1.class);
 
         ServiceRegistry registry = new StandardServiceRegistryBuilder()
                 .applySettings(conf.getProperties()).build();
