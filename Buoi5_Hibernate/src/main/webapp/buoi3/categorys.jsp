@@ -5,12 +5,12 @@
     <title>Title</title>
 </head>
 <body>
-<form action="">
+<form action="/category/search" method="GET">
     Tên: <input name="ten"/>
     <button type="submit">Search</button>
 </form>
 <br/>
-<button><a href="">Add Cate</a></button>
+<button><a href="/category/view-add">Add Cate</a></button>
 <table>
     <thead>
     <tr>
@@ -32,6 +32,8 @@
             <td>${cate.categoryName}</td>
             <td>
                 <a href="/category/delete?id1=${cate.id}">Delete</a>
+                <a href="/category/detail?a=${cate.id}">Detail</a>
+                <a href="/category/view-update?b=${cate.id}">View update</a>
             </td>
         </tr>
     </c:forEach>

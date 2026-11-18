@@ -5,11 +5,9 @@
   </head>
   <body>
     <form action="" method="post">
-      Cate code: <input type="text" name="mssv" />
+      Cate code: <input type="text" name="categoryCode" />
       <br />
-      Cate name: <input type="text" name="ten" />
-      <br />
-      Tuổi: <input type="text" name="tuoi" />
+      Cate name: <input type="text" name="categoryName" />
       <br />
       <button type="submit">Add</button>
     </form>
